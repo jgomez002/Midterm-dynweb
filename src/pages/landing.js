@@ -1,5 +1,4 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 
 
 function Landing(){
@@ -8,11 +7,6 @@ function Landing(){
     const AUTH_ENDPOINT = 'https://accounts.spotify.com/authorize';
     const RESPONSE_TYPE = 'token';
 
-    // const changePage = useNavigate(); 
-    // const routeChange = () =>{ 
-    //   let path = a herf={`${AUTH_ENDPOINT}?client_id=${client_id}&redirect_uri=${redirect_uri}&response_type=${RESPONSE_TYPE}`}; 
-    //   changePage(path);
-    // 
     console.log(CLIENT_ID);
     return(
         <div style={{textAlign:"center"}}>
