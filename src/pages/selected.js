@@ -50,7 +50,7 @@ function SelectedPlaylist(){
             <AllPlaylistCard
             href={data.href}
             name={data.name}
-            images ={data.images[0].url}
+            images ={data.images && data.images[0].url}
         />
         </div>
     );
