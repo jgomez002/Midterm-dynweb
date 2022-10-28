@@ -1,14 +1,14 @@
 import React from 'react';
 
-function AllPlaylistCard({name, images, id, href, link,tracks,artist}) {
+function AllPlaylistCard({name, images, id,link,tracks}) {
     return (
-        <div>
-            <a href={href}>
-            <p>{name}</p>
-            <a href={link}>{id}</a>
+        <div className='choice-page-items'>
+             <a href={link}>
+                <h2>{name}</h2>
+            </a>
+            <br></br>
             <img src={images}></img>
-            <p>{tracks} <br></br> {artist}</p>
-        </a>
+            <p> Total Tracks: {tracks}</p>
         </div>
     )
 }

@@ -1,5 +1,69 @@
 *{
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 5px; 
+    padding: 0; 
+}
+a{
+    text-decoration: none;
+    color: #011910;
+}
+a:hover{
+    color:#838383;
+}
+.capybaraCard-p{
+    font-size: 50px;
+}
+.choice-page-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.choice-page-h1{
+    color: #011910;
+}
+
+.choice-page-items{
+    padding-top: 30px;
+}
+
+.choice-page-wrapper{
+    background-color: #99C49E;
+    background-position: cover;
+    text-align: center;
+}
+
+h1{
+    color: black;
+    font-size: 64px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+img{
+    height: 400px;
+    width: auto;
+}
+
+.landing-page--wrapper{
+    background-color: black;
+    background-position: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.landing-page-text{
+    color: antiquewhite;
+}
+
+.selected-page-wrapper{
+    background-position: cover;
+    text-align: center;
 }
